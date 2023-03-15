@@ -14,9 +14,16 @@ library(oibiostat)
 data("nhanes.samp.adult")
 ```
 
-1) Using numberical and graphical summaries, describe the distribution of nightly sleep in the dataset.
+1) Using numerical and graphical summaries, describe the distribution of nightly sleep in the dataset.
 
-2) Conduct a hypothesis test to assess whether on average, American adults are getting enough sleep. Let mu be 8 hours.
+In addition, use a Shapiro test to formally test for normality.  For this test, a significant result indicates significant skew. 
+
+```{r}
+shapiro.test(???)
+```
+
+2) Conduct a hypothesis test to assess whether on average, American adults are getting enough sleep. Let mu be 8 hours. 
+
 (a) Formulate null and alternative hypotheses
 
 (b)Specify a significance level, alpha
