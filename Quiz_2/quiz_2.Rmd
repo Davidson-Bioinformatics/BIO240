@@ -1,0 +1,28 @@
+---
+title: "Quiz_2"
+author: "XXXX"
+date: "3/27/2023"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Question 4:
+Read in the geyser data:
+```{r}
+geyser = read.csv("geyser.csv")
+```
+
+Question 7:
+
+```{r}
+dueling_balances = read.csv("dueling_balances.csv")
+```
+
+
+```{r}
+balances_2 = read.csv("balances_2.csv")
+```
+
