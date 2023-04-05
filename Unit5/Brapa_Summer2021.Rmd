@@ -1,0 +1,61 @@
+---
+title: "Flowering time in B. rapa"
+output: html_notebook
+---
+
+
+During the summer of 2021, researchers at Davidson College explored whether plant size and temperature influenced the timing of flowering in the annual plant Brassica rapa.  You will be analyzing their data.
+
+Import the data file called Brapa and make sure that Treatment is designated as a factor while FloweringDOY and HeightFirstFlower are numeric or integers.
+
+HINT: After you read the data in push the down arrow next to it in the global environment to see how each variable is coded. Use the function as.factor() (it may be helpful to google how to use it!) to force a variable into a "factor" (think categorical variable with different levels).
+
+```{r}
+
+```
+
+
+Variables:
+-HeightFirstFlower: the size of the flowering stalk on the day that plants opened their first flower.
+-Treatment: plants were grown under moderate (Control) and elevated (Warm) temperatures.
+-FloweringDOY: The timing of flowering, measured as the day of year when flowering occured (a value ranging from 0 to 365).
+
+1) Make a scatterplot of height against flowering time with the color of points representing the treatment plants are in.  Include a legend.
+HINT: Once a variable is coded as a factor in R (as you have now done with treatment) use can call that variable in the "col" term to color the points by a categorical variable. To add a legend use the function legend(). Can be helpful to google how to use this function. 
+
+```{r}
+
+
+```
+
+Describe the relationship between all the variables. 
+
+2) Conduct a multiple regression that assesses whether variation in height explains variation in flowering time similarly in both treatments.
+
+
+```{r}
+
+```
+
+Q) Interpret each of the coefficients and their associated p-values. 
+
+A: 
+
+
+
+3) Check the assumptions of the multiple regression.  Do you think model assumptions have been met?
+
+```{r}
+
+```
+
+A:
+
+
+
+4) Add trend lines to the plot you made above. (hint: you have to recopy the plot code below for the trend lines to run)
+
+```{r}
+
+```
+
